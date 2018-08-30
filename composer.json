@@ -1,0 +1,15 @@
+{
+    "name": "Latex Editor",
+    "description": "Editor para arquivos Latex/BibTex",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Diefferson Koderer Môro"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}

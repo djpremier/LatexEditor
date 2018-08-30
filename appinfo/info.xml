@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>latexeditor</id>
+    <name>Latex Editor</name>
+    <summary>Editor para arquivos Latex/BibTex</summary>
+    <description><![CDATA[Editor para arquivos Latex/BibTex com pré-visualização.
+
+A lista completa de funcionalidades pode ser encontrada no [README](https://github.com/djpremier/LatexEditor)]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="dieffersonmoro@gmail.com" >Diefferson Koderer Môro</author>
+    <namespace>LatexEditor</namespace>
+    <category>office</category>
+    <bugs>https://github.com/djpremier/LatexEditor/issues</bugs>
+    <dependencies>
+        <nextcloud min-version="13" max-version="13"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Latex Editor</name>
+            <route>latexeditor.page.index</route>
+        </navigation>
+    </navigations>
+</info>
